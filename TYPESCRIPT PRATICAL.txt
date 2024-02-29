@@ -1,0 +1,73 @@
+1. TypeScript program that calculates the area of a circle:
+
+```typescript
+// Define a function to calculate the area of a circle
+function calculateCircleArea(radius: number): number {
+    const area: number = Math.PI * Math.pow(radius, 2);
+    return area;
+}
+
+// Example: Calculate the area of a circle with a radius of 5 units
+const radius: number = 5;
+const area: number = calculateCircleArea(radius);
+
+// Display the result
+console.log(`The area of a circle with radius ${radius} is ${area.toFixed(2)} square units.`);
+```
+
+Save this code in a TypeScript file (e.g., `calculateCircleArea.ts`) and then compile and run it using the TypeScript compiler (`tsc`) and Node.js:
+
+1. Install Node.js and TypeScript (if not already installed):
+   ```bash
+   npm install -g typescript
+   ```
+
+2. Compile the TypeScript file:
+   ```bash
+   tsc calculateCircleArea.ts
+   ```
+
+3. Run the compiled JavaScript file:
+   ```bash
+   node calculateCircleArea.js
+   ```
+
+This program defines a function `calculateCircleArea` that takes the radius as a parameter and returns the calculated area. It then demonstrates the usage of the function with an example where the radius is set to 5 units. The result is displayed using `console.log()`.
+
+
+2.  TypeScript program that calculates the area of a triangle:
+
+```typescript
+// Define a function to calculate the area of a triangle
+function calculateTriangleArea(base: number, height: number): number {
+    const area: number = 0.5 * base * height;
+    return area;
+}
+
+// Example: Calculate the area of a triangle with a base of 8 units and height of 10 units
+const base: number = 8;
+const height: number = 10;
+const area: number = calculateTriangleArea(base, height);
+
+// Display the result
+console.log(`The area of a triangle with base ${base} and height ${height} is ${area.toFixed(2)} square units.`);
+```
+
+Save this code in a TypeScript file (e.g., `calculateTriangleArea.ts`) and then compile and run it using the TypeScript compiler (`tsc`) and Node.js:
+
+1. Install Node.js and TypeScript (if not already installed):
+   ```bash
+   npm install -g typescript
+   ```
+
+2. Compile the TypeScript file:
+   ```bash
+   tsc calculateTriangleArea.ts
+   ```
+
+3. Run the compiled JavaScript file:
+   ```bash
+   node calculateTriangleArea.js
+   ```
+
+This program defines a function `calculateTriangleArea` that takes the base and height as parameters and returns the calculated area. It then demonstrates the usage of the function with an example where the base is set to 8 units and the height is set to 10 units. The result is displayed using `console.log()`.
